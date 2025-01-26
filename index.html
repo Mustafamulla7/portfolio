@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Mulla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar flex items-center justify-between flex-wrap p-3">
+
+        <div class="logo">
+            <a href="/" class="logo-link">Mustafa.dev</a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- hero section  -->
+    <section id="home" class="hero-section flex items-center justify-around">
+        <div>
+            <div class="flex items-center flex-row-reverse justify-between gap-3">
+                <div class="animate-change-radius flex items-center justify-center  border-purple-600">
+                    <img src="./../../img/mustafa.png" alt="mustafa_image" loading="lazy" />
+                </div>
+                <div class=" hero-section-text">
+                    <h1 class=""">
+                        Front-End React Developer👋
+                    </h1>
+                    <p class="">
+                        Hi, I'm
+                        <span class=" name bg-[#1F1A38] px-[4px] py-[2px] text-[#ffff00]">
+                        Mustafa Mulla
+                        </span>
+                        . A passionate Front-End Developer based in Goa, India. 📍
+                        </p>
+                        <div class="flex items-center  gap-4 mt-3">
+                            <div class="links-div">
+                                <a href="https://www.linkedin.com/in/mustafa-mulla-53846221a/" target="_blank">
+                                    <img src="./img/linkedin.svg" class="link" />
+                                </a>
+                            </div>
+                            <div class="links-div">
+                                <a href="https://github.com/MustafaMulla29" target="_blank">
+                                    <img src="./img/github.svg" class="link" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tech-stack flex items-center gap-3 sm:gap-9 mt-8 text-[15px]">
+                            <div>
+                                <p>Teck Stack |</p>
+                            </div>
+                            <div class="flex gap-3 tech-stack-items">
+                                <span>
+                                    <img src="./img/html.svg" class="icon" />
+                                </span>
+                                <span>
+                                    <img src="./img/css.svg" class="icon" />
+                                </span>
+                                <span>
+                                    <img src="./img/js.svg" class="icon" />
+                                </span>
+                                <span>
+                                    <img src="./img/tailwind.svg" class="icon" />
+                                </span>
+                                <span>
+                                    <img src="./img/react.svg" class="icon" />
+                                </span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section  -->
+    <section id="about" class=" about-section flex items-center justify-center flex-row  gap-12">
+        <div class="">
+            <img src="./../../img/about-img.jpg" class="about-img" alt="about_image" loading="lazy" />
+        </div>
+        <div class=" about-text">
+            <p class="about-me">
+                <span>
+                    ABOUT ME
+                </span>
+            </p>
+            <h3 class="">
+                A dedicated Front-End Developer
+            </h3>
+            <p class="text-justify">
+                Greetings! I'm Mustafa Mulla, a passionate front-end developer with
+                a knack for crafting immersive and intuitive user experiences. With
+                a foundation in HTML, CSS, and JavaScript, coupled with proficiency
+                in React.js and Tailwind CSS, I bring ideas to life through clean,
+                elegant code.
+            </p>
+        </div>
+    </section>
+
+    <!-- contact section  -->
+    <section id="contact" class="contact-section  flex items-start justify-around flex-col gap-12">
+        <div class="contact-text">
+            <p class="my-3 about-me">
+                <span class="">
+                    CONTACT ME
+                </span>
+            </p>
+            <h3 class="my-3 ">
+                Type it up it works.🙌
+            </h3>
+        </div>
+
+        <div class="">
+            <div class=" email-link">
+                <a href="mailto:mustafamulla765@gmail.com" class="flex items-center justify-start mx-3" target="_blank">
+                    <span>
+                        <img src="./img/envelope.svg" class="envelope" />
+                    </span>
+                    <span>mustafamulla765@gmail.com</span>
+                </a>
+            </div>
+            <form class="form" id="form">
+                <div class="">
+                    <input name="name" type="text" placeholder="John" class="input my-3" autocomplete="off" required
+                        minlength="3" />
+                    <input name="email" type="email" placeholder="john@gmail.com" class="input my-2" autocomplete="off"
+                        required />
+                </div>
+                <input name="subject" type="text" placeholder="Subject" class="input my-2" autocomplete="off"
+                    minlength="3" required />
+                <textarea name="message" placeholder="Message" cols="30" rows="5" class="textarea my-2"
+                    autocomplete="off" minlength="5" required></textarea>
+                <div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer-section flex flex-row items-start gap-12">
+        <div class="footer-text w-full flex items-center flex-row justify-between">
+            <div>
+                <p>@2025 mustafamulla. All Rights Reserved</p>
+            </div>
+            <div class="flex">
+                <div class="mx-3">
+                    <a href="https://github.com/MustafaMulla29" target="_blank">
+                        <img src="./img/github.svg" class="link" name="github" />
+                    </a>
+                </div>
+                <div class="mx-3">
+                    <a href="https://www.linkedin.com/in/mustafa-mulla-53846221a/" target="_blank">
+                        <img src="./img/linkedin.svg" class="link" name="linkedin" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
